@@ -1,10 +1,15 @@
 import React from 'react'
 import styled from 'styled-components';
+import NavBar from './NavBar';
 
 function HomeScreen() {
     return (
         <HomeScreenContainer>
-            Home screen
+            <NavBar />
+
+            {/* HomeScreen */}
+
+            {/* Rows */}
         </HomeScreenContainer>
     )
 }
